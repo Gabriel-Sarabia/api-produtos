@@ -4,7 +4,7 @@ const { open } = require('sqlite');
 const jwt = require('jsonwebtoken'); 
 
 const app = express();
-const porta = 3000;
+const porta = process.env.PORT || 3000;
 const SECRET = 'senha_secreta_do_professor_123'; 
 
 app.use(express.json());

@@ -20,7 +20,7 @@ Este projeto é a evolução (Atividade 2) da API REST desenvolvida para a disci
    ```bash
    npm install
 
-##  Deploy em Produção
+##  Deploy 
 A API está hospedada no Render e pode ser acessada de qualquer lugar.
 **Link Base da API:** `https://api-produtos-gabriel-sarabia.onrender.com`
 

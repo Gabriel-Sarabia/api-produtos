@@ -19,3 +19,9 @@ Este projeto é a evolução (Atividade 2) da API REST desenvolvida para a disci
 1. Instale as dependências:
    ```bash
    npm install
+
+##  Deploy em Produção
+A API está hospedada no Render e pode ser acessada de qualquer lugar.
+**Link Base da API:** `https://api-produtos-gabriel-sarabia.onrender.com`
+
+*Para testar as rotas, basta substituir `http://localhost:3000` por este link no Postman.*

@@ -1,8 +1,8 @@
-# 🛒 API Rest de Produtos - Node.js (CRUD Completo)
+#  API Rest de Produtos - Node.js (CRUD Completo)
 
 Este projeto é a evolução (Atividade 2) da API REST desenvolvida para a disciplina de **Desenvolvimento de Aplicativos Móveis**. O sistema agora conta com um CRUD 100% implementado, validações de dados e tratamento de erros.
 
-## 📋 Funcionalidades
+##  Funcionalidades
 * Base de dados inicial com 10 produtos.
 * Listagem completa, com filtros por categoria e ordenação de preço (GET).
 * Busca detalhada por ID (GET).
@@ -10,12 +10,12 @@ Este projeto é a evolução (Atividade 2) da API REST desenvolvida para a disci
 * Atualização de registros existentes (PUT).
 * Exclusão de produtos (DELETE).
 
-## 🛠️ Tratamento de Erros e Validações
+##  Tratamento de Erros e Validações
 * **Status 200 / 201:** Sucesso nas requisições e criações.
 * **Status 400 (Bad Request):** Disparado quando o usuário tenta criar/atualizar um produto faltando campos (nome, preco, categoria, estoque).
 * **Status 404 (Not Found):** Disparado ao tentar buscar, atualizar ou deletar um ID que não existe.
 
-## 🚀 Como Rodar o Projeto
+##  Como Rodar o Projeto
 1. Instale as dependências:
    ```bash
    npm install
